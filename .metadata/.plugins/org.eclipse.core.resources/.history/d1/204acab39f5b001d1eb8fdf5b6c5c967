@@ -1,0 +1,9 @@
+package com.LinkedList;
+
+public class Node {
+	
+	public Node value;
+	
+	public int next;
+	
+}

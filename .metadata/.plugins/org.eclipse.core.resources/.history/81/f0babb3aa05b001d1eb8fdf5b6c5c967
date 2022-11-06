@@ -1,0 +1,9 @@
+package com.SinglyLinkedList;
+
+public class Node {
+	
+	public Node value;
+	
+	public int next;
+	
+}

@@ -1,0 +1,25 @@
+package com.SinglyLinkedList;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		SinglyLinkedList sll = new SinglyLinkedList(); // creating the instance of SSL class
+		
+		sll.creatingSinglyLinkedList(4);
+		System.out.println(sll.head.value+" and "+ sll.tail.next);
+		
+//		sll.insertingValueInLinkedList(7, 1);  
+//		System.out.println(sll.head.value); // output-->>4, because value at zero-th index is not change we only add value at first index
+											//if we want to print 7 then we have to do this (sll.head.next.value) it give the next value of that index
+		sll.insertingValueInLinkedList(7, 1);
+		sll.insertingValueInLinkedList(5, 2);
+		sll.insertingValueInLinkedList(8, 5);
+		sll.insertingValueInLinkedList(1, 7);
+		sll.insertingValueInLinkedList(10, 4);
+		System.out.println(sll.head.next.next.value); // 7
+		
+
+	}
+
+}

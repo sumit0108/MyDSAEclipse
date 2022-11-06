@@ -1,0 +1,22 @@
+package com.SinglyLinkedList;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		SinglyLinkedList sll = new SinglyLinkedList(); // creating the instance of SSL class
+		
+		sll.creatingSinglyLinkedList(4);
+		System.out.println(sll.head.value+" and "+ sll.tail.next);
+		
+		sll.insertingValueInLinkedList(7, 1);
+//		sll.insertingValueInLinkedList(5, 2);
+//		sll.insertingValueInLinkedList(8, 5);
+//		sll.insertingValueInLinkedList(1, 7);
+//		sll.insertingValueInLinkedList(10, 4);
+		System.out.println(sll.head.next.value); // 7
+		
+
+	}
+
+}
